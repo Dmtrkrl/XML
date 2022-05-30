@@ -1,0 +1,13 @@
+<BUGREPORT>
+  	<BugID>22<BugID>
+	<Title>the exchange rate changes when the widget is resized</Tittle>
+	<Severity>Major</Severity>
+	<Priority>Medium</Priority>
+	<Environment>SGS 10+(SM-G975F/DS), android 12 (G975FXXUEHVB9), ONE UI 4.1,  5x6, 2280x1080</Environment>
+	<Precondition>Install the AndroidGridTest application</Precondition>
+	<Str1>add widget through smartphone settings</Str1> 
+ 	<Str2>resize widget from small to large (vertically and horizontally)</Str2>
+	<Ar>the data in the widget does not change</Ar>
+	<Er1>BTC/USD price has changed (resizing the widget vertically)</Er1>
+    	<Er2>percentages change from positive to negative (resizing the widget horizontally)</Er2>
+</BUGREPORT>
